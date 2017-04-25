@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorWhite"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/upperView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="@string/quantity"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/quantityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/quantity"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="45dp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:id="@+id/quantityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="65dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/priorityView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="@string/priority"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/priorityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/priority"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="48dp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:id="@+id/priorityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/attributeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/attribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingRight="1dp"
+            android:layout_centerVertical="true"
+            android:text="@string/attributes"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/attributeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/attribute"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/colorBlack"
+             />
+
+        <Button
+            android:id="@+id/attributeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="@string/date"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/dateValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/date"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/emailView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="@string/email"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/emailValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/email"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <Button
+            android:id="@+id/emailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/edit" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/submit"
+        style="@style/BaseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit" />
+</LinearLayout>

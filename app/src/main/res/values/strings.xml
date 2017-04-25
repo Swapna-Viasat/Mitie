@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mitie</string>
+    <string name="quantity">Quantity</string>
+    <string name="edit">Edit</string>
+    <string name="priority">Priority</string>
+    <string name="attributes">Attributes</string>
+    <string name="date">Date</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="ok">Ok</string>
+    <string name="Thanks">Edited Successfully</string>
+    <string name="spinner_title">Select Priority</string>
+    <string name="priority_prompt">Choose Priority</string>
+    <string-array name="priority_arrays">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+</resources>
